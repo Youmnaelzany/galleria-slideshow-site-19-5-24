@@ -1,10 +1,348 @@
 ---
+import StartSlideshow from "@/components/StartSlideshow.astro";
 import Layout from "../layouts/Layout.astro";
 import "@/styles/globals.css";
 ---
 
 <Layout title="Galleria">
-  <main></main>
+  <!-- Start Slideshow -->
+  <StartSlideshow />
+  <main
+    class="mx-6 mb-6 mt-12 flex flex-col gap-[1.44rem] md:mb-10 md:ml-[2.44rem] md:mr-10 md:mt-[4.25rem] md:flex-row md:flex-wrap md:gap-10 md:max-2xl:flex-row md:max-2xl:flex-wrap xl:mx-10 xl:mb-[2.94rem] xl:mt-[5.06rem]"
+  >
+    <!-- Starry Night -->
+    <section
+      class="h-[15.625rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/starry-night/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[5.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">Starry Night</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Vincent Van Gogh
+        </h3>
+      </div>
+    </section>
+
+    <!-- Girl with a Pearl Earring -->
+    <section class="h-[25rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]">
+      <div class="">
+        <img
+          src="/public/images/girl-with-pearl-earring/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">
+          Girl with a Pearl Earring
+        </h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Johannes Vermeer
+        </h3>
+      </div>
+    </section>
+
+    <!-- Guernica -->
+    <section
+      class="h-[17.8125rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/guernica/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[5.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">Guernica</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Pablo Picasso
+        </h3>
+      </div>
+    </section>
+
+    <!-- Penitent Magdalene -->
+    <section
+      class="h-[15.625rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/penitent-magdalene/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">Penitent Magdalene</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Artemisia Gentileschi
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Storm on the Sea of Galilee -->
+    <section
+      class="h-[21.25rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-storm-on-the-sea-of-galilee/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">
+          The Storm on the Sea of Galilee
+        </h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Rembrandt
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Great Wave off Kanagawa -->
+    <section
+      class="h-[17.5rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-great-wave-off-kanagawa/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">
+          The Great Wave off Kanagawa
+        </h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Hokusai
+        </h3>
+      </div>
+    </section>
+
+    <!-- Van Gogh Self-portrait -->
+    <section
+      class="h-[31.25rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/van-gogh-self-portrait/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">
+          Van Gogh Self-portrait
+        </h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Vincent Van Gogh
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Sleeping Gypsy -->
+    <section
+      class="h-[15.625rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-sleeping-gypsy/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">The Sleeping Gypsy</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Henri Rousseau
+        </h3>
+      </div>
+    </section>
+
+    <!-- Lady with an Ermine -->
+    <section
+      class="h-[26.25rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/lady-with-an-ermine/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">Lady with an Ermine</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Leonardo da Vinci
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Night Café -->
+    <section
+      class="h-[16.25rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-night-cafe/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[5.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">The Night Café</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Vincent Van Gogh
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Basket of Apples -->
+    <section
+      class="h-[26.875rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-basket-of-apples/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">The Basket of Apples</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Paul Cézanne
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Boy in the Red Vest -->
+    <section
+      class="h-[16.25rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-boy-in-the-red-vest/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[8.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">
+          The Boy in the Red Vest
+        </h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Paul Cézanne
+        </h3>
+      </div>
+    </section>
+
+    <!-- Arnolfini Portrait -->
+    <section
+      class="h-[20.625rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/arnolfini-portrait/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[5.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">Arnolfini Portrait</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Jan van Eyck
+        </h3>
+      </div>
+    </section>
+
+    <!-- Mona Lisa -->
+    <section
+      class="h-[32.8125rem] w-[20.4375rem] md:w-[20.25rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/mona-lisa/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[5.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">Mona Lisa</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Leonardo da Vinci
+        </h3>
+      </div>
+    </section>
+
+    <!-- The Swing -->
+    <section
+      class="h-[21.25rem] w-[20.4375rem] md:w-[19.375rem] xl:w-[19.375rem]"
+    >
+      <div class="">
+        <img
+          src="/public/images/the-swing/thumbnail.jpg"
+          alt=""
+          class="imgWithEffect"
+        />
+      </div>
+      <div
+        class="relative bottom-[5.06rem] left-8 flex w-[15.375rem] flex-col gap-[0.44rem] text-white"
+      >
+        <h2 class="text-2xl font-bold leading-normal">The Swing</h2>
+        <h3 class="text-sm font-normal leading-normal opacity-[0.7528]">
+          Jean-Honoré Fragonard
+        </h3>
+      </div>
+    </section>
+  </main>
 </Layout>
 
-<style></style>
+<script is:inline>
+  const imgWithEffect = document.getElementsByClassName(imgWithEffect);
+  for (let i = 0; i < imgWithEffect.length; i++) {
+    imgWithEffect[i].addEventListener("mouseover", function () {
+      imgWithEffect[i].style.filter = "brightness(1.2)";
+    });
+    imgWithEffect[i].addEventListener("mouseout", function () {
+      imgWithEffect[i].style.filter = "brightness(1)";
+    });
+  }
+</script>
